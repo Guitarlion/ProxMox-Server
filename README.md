@@ -5,7 +5,7 @@
  Acer Predator 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Applications and Systems:
+System,Operating System:
 
  Pfsense, kali linux, ubuntu, Arch linux, Windows 11, Windows Server 2025, ProxMox VE 8.4.0, Active Directory, Security Onion
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -17,3 +17,7 @@ Experiment with network segmentation, firewalls, and intrusion detection tools t
 Regularly refine the lab by adding new configurations, testing security scenarios, and applying updates to reflect current industry practices.
 
 Leverage the lab as a safe space to explore incident response, vulnerability management, and system hardening techniques, while improving technical proficiency in both IT operations and cybersecurity. 
+
+ Configured firewall rules within pfSense to control network traffic flow, ensuring proper segmentation, security, and access between virtualized environments. This included creating and testing inbound and outbound rules, NAT rules, and VLAN-based policies to simulate enterprise-level security practices.
+
+<img width="1684" height="794" alt="ProxMox lab" src="https://github.com/user-attachments/assets/8b0434c6-2975-406b-9bfc-cd36c28091b4" />
