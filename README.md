@@ -20,4 +20,4 @@ Leverage the lab as a safe space to explore incident response, vulnerability man
 
  Configured firewall rules within pfSense to control network traffic flow, ensuring proper segmentation, security, and access between virtualized environments. This included creating and testing inbound and outbound rules, NAT rules, and VLAN-based policies to simulate enterprise-level security practices.
 
-<img width="1684" height="794" alt="ProxMox lab" src="https://github.com/user-attachments/assets/8b0434c6-2975-406b-9bfc-cd36c28091b4" />
+<img width="1536" height="1024" alt="ChatGPT Image May 11, 2026, 04_20_46 PM" src="https://github.com/user-attachments/assets/71d8466f-fd1a-4a5a-aced-b2a58c332baa" />
