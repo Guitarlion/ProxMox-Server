@@ -7,7 +7,7 @@
 
 System,Operating System:
 
- Pfsense, kali linux, ubuntu, Arch linux, Windows 11, Windows Server 2025, ProxMox VE 8.4.0, Active Directory, Security Onion
+ Pfsense, kali linux, ubuntu, Arch linux, Windows 11, Windows Server 2025, ProxMox, Security Onion
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   Actively design, build, and expand a Proxmox VE home lab to replicate enterprise IT and cybersecurity environments for continuous hands-on learning.Configure and maintain virtual machines, storage, and network bridges, ensuring realistic simulations of production-level infrastructure.Continuously deploy and test systems such as Windows Server, Windows 11, Linux distributions, pfSense, and Security Onion to strengthen skills in virtualization, system administration, and security monitoring.
