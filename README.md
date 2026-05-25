@@ -42,7 +42,7 @@ Designed and maintained a Proxmox VE enterprise-style home lab focused on virtua
 
 - Continuously refined and expanded the lab environment by deploying additional systems, modifying network configurations, and testing enterprise security concepts.
 
-<img width="1536" height="1024" alt="ChatGPT Image May 11, 2026, 04_20_46 PM" src="https://github.com/user-attachments/assets/71d8466f-fd1a-4a5a-aced-b2a58c332baa" />
+<img width="1539" height="1022" alt="ChatGPT Image May 25, 2026, 02_53_34 AM" src="https://github.com/user-attachments/assets/da96ec97-0af1-43da-9a0d-0501a5206462" />
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
