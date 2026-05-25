@@ -1,23 +1,45 @@
 # ProxMox-Server
 
- Hardware:
 
- Acer Predator 
+
+## Technologies Used
+
+### Virtualization
+- Proxmox VE
+
+### Security Tools
+- Security Onion
+- pfSense
+
+### Operating Systems
+- Windows 11
+- Windows Server 2025
+- Kali Linux
+- Ubuntu
+- Arch Linux
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-System,Operating System:
+## Project Overview
 
- Pfsense, kali linux, ubuntu, Arch linux, Windows 11, Windows Server 2025, ProxMox, Security Onion
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Designed and maintained a Proxmox VE enterprise-style home lab focused on virtualization, network segmentation, security monitoring, and system administration. The environment was built to simulate real-world IT and cybersecurity infrastructure using VLANs, firewall policies, SIEM monitoring, and multi-OS virtualized systems.
 
-  Actively design, build, and expand a Proxmox VE home lab to replicate enterprise IT and cybersecurity environments for continuous hands-on learning.Configure and maintain virtual machines, storage, and network bridges, ensuring realistic simulations of production-level infrastructure.Continuously deploy and test systems such as Windows Server, Windows 11, Linux distributions, pfSense, and Security Onion to strengthen skills in virtualization, system administration, and security monitoring.
+---
 
-Experiment with network segmentation, firewalls, and intrusion detection tools to gain practical experience in defending and troubleshooting complex environments.
+## Key Responsibilities & Configurations
 
-Regularly refine the lab by adding new configurations, testing security scenarios, and applying updates to reflect current industry practices.
+- Deployed and managed virtualized environments within Proxmox VE, including Windows Server 2025, Windows 11, Kali Linux, Ubuntu, Arch Linux, pfSense, and Security Onion.
 
-Leverage the lab as a safe space to explore incident response, vulnerability management, and system hardening techniques, while improving technical proficiency in both IT operations and cybersecurity. 
+- Configured virtual switches, network bridges, VLAN segmentation, and inter-VLAN routing to simulate enterprise network architectures.
 
- Configured firewall rules within pfSense to control network traffic flow, ensuring proper segmentation, security, and access between virtualized environments. This included creating and testing inbound and outbound rules, NAT rules, and VLAN-based policies to simulate enterprise-level security practices.
+- Implemented pfSense firewall policies,and VLAN-based traffic controls to secure and regulate communication between virtualized networks.
+
+- Configured Security Onion for centralized security monitoring, log analysis, and intrusion detection using Elastic Stack and Zeek.
+
+- Tested and troubleshot connectivity, firewall filtering, Elastic Agent communication, and network routing between segmented VLAN environments.
+
+- Performed system hardening, vulnerability management, and security testing within isolated lab environments to strengthen cybersecurity operations knowledge.
+
+- Continuously refined and expanded the lab environment by deploying additional systems, modifying network configurations, and testing enterprise security concepts.
 
 <img width="1536" height="1024" alt="ChatGPT Image May 11, 2026, 04_20_46 PM" src="https://github.com/user-attachments/assets/71d8466f-fd1a-4a5a-aced-b2a58c332baa" />
