@@ -43,3 +43,58 @@ Designed and maintained a Proxmox VE enterprise-style home lab focused on virtua
 - Continuously refined and expanded the lab environment by deploying additional systems, modifying network configurations, and testing enterprise security concepts.
 
 <img width="1536" height="1024" alt="ChatGPT Image May 11, 2026, 04_20_46 PM" src="https://github.com/user-attachments/assets/71d8466f-fd1a-4a5a-aced-b2a58c332baa" />
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Networking Configuration
+
+### VLAN Segmentation
+Configured multiple VLANs within pfSense to separate management, client, server, monitoring, and isolated security networks.
+
+| VLAN | Purpose |
+|------|----------|
+| VLAN 10 | Management Network |
+| VLAN 20 | Client Devices |
+| VLAN 30 | Server / Security Onion Network |
+| VLAN 40 | SOC Monitoring Network |
+| VLAN 50 | Security Tools |
+
+---
+
+### pfSense Configuration
+- Configured VLAN interfaces and inter-VLAN routing
+- Implemented firewall rules to regulate traffic between segmented networks
+- Created NAT rules for internet connectivity and internal communication
+- Configured DHCP services for VLAN-based subnet allocation
+- Tested inbound and outbound traffic filtering policies
+
+---
+
+### Network Security
+- Restricted communication between VLANs using firewall policies
+- Validated connectivity using ICMP, TCP port testing, and packet filtering
+- Monitored network traffic through Security Onion and Zeek
+- Troubleshot routing, DNS resolution, and Elastic Agent communication issues
+
+---
+
+### Virtual Networking
+- Configured Proxmox network bridges and virtual NIC assignments
+- Integrated pfSense as the primary virtual firewall/router
+- Connected virtual machines across segmented VLAN environments
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Lessons Learned
+
+- Improved understanding of VLAN segmentation, inter-VLAN routing, and firewall rule processing within pfSense.
+
+- Gained hands-on experience troubleshooting Elastic Agent enrollment, Fleet communication issues, and Security Onion connectivity across segmented networks.
+
+- Strengthened knowledge of network troubleshooting by diagnosing DNS resolution failures, blocked ports, routing issues, and firewall misconfigurations.
+
+- Learned how NAT rules, interface assignments, and rule order impact traffic flow within virtualized environments.
+
+- Developed practical experience deploying and maintaining virtualized infrastructure using Proxmox VE, including network bridges, virtual switches, and multi-VM environments.
+
+- Improved familiarity with SIEM monitoring, endpoint telemetry, and log analysis through Security Onion and Elastic Stack integrations.
