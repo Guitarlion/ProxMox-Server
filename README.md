@@ -1,23 +1,32 @@
 # ProxMox-Server
 
 
-
 ## Technologies Used
 
-### Virtualization
+### Core Infrastructure
 - Proxmox VE
-
-### Security Tools
-- Security Onion
+- Windows Server 2025
+- Active Directory
+- Windows 11
 - pfSense
 
-### Operating Systems
-- Windows 11
-- Windows Server 2025
-- Kali Linux
+### Networking
+- VLANs
+- DNS
+- DHCP
+- NAT
+- Firewall Rules
+
+### Security Monitoring
+- Security Onion
+- Elastic Agent
+- Elastic Stack
+- Zeek
+
+### Additional Operating Systems
 - Ubuntu
 - Arch Linux
-
+- Kali Linux
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Project Overview
@@ -57,27 +66,22 @@ Deployed Windows Server 2025 as an Active Directory Domain Services environment 
 
 ----
 
-## Networking Configuration
+### Network Segmentation
 
-### VLAN Segmentation
-Configured multiple VLANs within pfSense to separate management, client, server, monitoring, and isolated security networks.
+Implemented five VLANs to separate management, client, server, monitoring, and security tool traffic.
 
-| VLAN | Purpose |
-|------|----------|
-| VLAN 10 | Management Network |
-| VLAN 20 | Client Devices |
-| VLAN 30 | Server / Security Onion Network |
-| VLAN 40 | SOC Monitoring Network |
-| VLAN 50 | Security Tools |
-
+- Configured inter-VLAN routing through pfSense.
+- Implemented firewall policies to control communication between network segments.
+- Restricted access to Security Onion management interfaces.
+- Validated traffic flow using connectivity testing and firewall log analysis.
 ---
 
-### pfSense Configuration
-- Configured VLAN interfaces and inter-VLAN routing
-- Implemented firewall rules to regulate traffic between segmented networks
-- Created NAT rules for internet connectivity and internal communication
-- Configured DHCP services for VLAN-based subnet allocation
-- Tested inbound and outbound traffic filtering policies
+### pfSense Administration
+
+- Configured VLAN interfaces, DHCP services, NAT policies, and inter-VLAN routing.
+- Implemented firewall rules to regulate communication between management, client, and security monitoring networks.
+- Troubleshot routing, DNS resolution, and connectivity issues across segmented environments.
+- Validated network access controls through packet inspection and firewall log analysis.
 
 ---
 
