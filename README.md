@@ -28,23 +28,34 @@ Designed and maintained a Proxmox VE enterprise-style home lab focused on virtua
 
 ## Key Responsibilities & Configurations
 
-- Deployed and managed virtualized environments within Proxmox VE, including Windows Server 2025, Windows 11, Kali Linux, Ubuntu, Arch Linux, pfSense, and Security Onion.
+* Designed and administered a multi-tier Proxmox VE home lab environment to simulate enterprise infrastructure, networking, identity management, and security operations workflows.
+* Deployed and maintained Windows Server 2025, Active Directory Domain Services (AD DS), Windows 11, pfSense, Security Onion, and Linux-based systems to support infrastructure and cybersecurity testing.
+* Configured Active Directory organizational units (OUs), user accounts, security groups, Group Policy Objects (GPOs), and domain-joined endpoints to simulate enterprise identity and access management practices.
+* Implemented VLAN segmentation, virtual switches, network bridges, DHCP, DNS, firewall policies, and inter-VLAN routing to create isolated network zones and controlled communication paths.
+* Managed pfSense firewall configurations, NAT policies, and access control rules to secure network traffic between client, server, and monitoring segments.
+* Integrated Security Onion and Elastic Agents to centralize log collection, endpoint visibility, intrusion detection, and security event monitoring across the lab environment.
+* Performed system administration tasks including user provisioning, password management, policy enforcement, operating system updates, troubleshooting, and system hardening.
+* Diagnosed and resolved network connectivity, authentication, DNS, Group Policy, Elastic Agent, and firewall-related issues using structured troubleshooting methodologies.
+* Documented infrastructure architecture, configurations, implementation procedures, and lessons learned to improve repeatability and operational efficiency.
+* Configured and administered Active Directory Domain Services (AD DS), including user account management, password policy enforcement, organizational unit design, security group administration, and Group Policy deployment.
 
-- Configured virtual switches, network bridges, VLAN segmentation, and inter-VLAN routing to simulate enterprise network architectures.
 
-- Implemented pfSense firewall policies,and VLAN-based traffic controls to secure and regulate communication between virtualized networks.
-
-- Configured Security Onion for centralized security monitoring, log analysis, and intrusion detection using Elastic Stack and Zeek.
-
-- Tested and troubleshot connectivity, firewall filtering, Elastic Agent communication, and network routing between segmented VLAN environments.
-
-- Performed system hardening, vulnerability management, and security testing within isolated lab environments to strengthen cybersecurity operations knowledge.
-
-- Continuously refined and expanded the lab environment by deploying additional systems, modifying network configurations, and testing enterprise security concepts.
 
 <img width="1539" height="1022" alt="ChatGPT Image May 25, 2026, 02_53_34 AM" src="https://github.com/user-attachments/assets/da96ec97-0af1-43da-9a0d-0501a5206462" />
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Identity & Access Management
+
+Deployed Windows Server 2025 as an Active Directory Domain Services environment to simulate enterprise user, group, and workstation administration.
+
+- Promoted Windows Server 2025 to a domain controller and configured a lab domain for centralized identity management.
+- Created organizational units, domain users, security groups, and basic role-based access structures.
+- Joined a Windows 11 client VM to the domain and validated domain authentication.
+- Configured Group Policy Objects for password policy, account controls, and workstation management.
+- Troubleshot domain login, DNS, password reset, and Group Policy application issues using Windows administrative tools.
+
+----
 
 ## Networking Configuration
 
