@@ -36,7 +36,8 @@ Designed and administered a Proxmox-based enterprise lab environment to develop 
 
 Designed and maintained a Proxmox VE enterprise-style home lab focused on virtualization, network segmentation, security monitoring, and system administration. The environment was built to simulate real-world IT and cybersecurity infrastructure using VLANs, firewall policies, SIEM monitoring, and multi-OS virtualized systems.
 
----
+<img width="1536" height="1024" alt="ChatGPT Image Jun 8, 2026 at 07_57_17 PM" src="https://github.com/user-attachments/assets/694b0ca4-593f-4eb8-aedc-b1997de73055" />
+
 
 ## Key Responsibilities & Configurations
 
@@ -53,9 +54,6 @@ Designed and maintained a Proxmox VE enterprise-style home lab focused on virtua
 
 
 
-<img width="1536" height="1024" alt="ChatGPT Image Jun 8, 2026 at 07_57_17 PM" src="https://github.com/user-attachments/assets/694b0ca4-593f-4eb8-aedc-b1997de73055" />
-
-
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Identity & Access Management
@@ -67,6 +65,10 @@ Deployed Windows Server 2025 as an Active Directory Domain Services environment 
 - Joined a Windows 11 client VM to the domain and validated domain authentication.
 - Configured Group Policy Objects for password policy, account controls, and workstation management.
 - Troubleshot domain login, DNS, password reset, and Group Policy application issues using Windows administrative tools.
+
+  Below: Configured and enforced domain-wide password policies through Group Policy Management, including password complexity requirements, 12-character minimum passwords, password history enforcement, and password expiration settings to strengthen identity security and align with enterprise security best practices.
+
+<img width="730" height="508" alt="Screenshot 2026-06-09 at 7 11 50 PM" src="https://github.com/user-attachments/assets/09ac6ed6-f709-4e7a-9486-77e25d7bbd7a" />
 
 ----
 
@@ -86,6 +88,12 @@ Implemented five VLANs to separate management, client, server, monitoring, and s
 - Implemented firewall rules to regulate communication between management, client, and security monitoring networks.
 - Troubleshot routing, DNS resolution, and connectivity issues across segmented environments.
 - Validated network access controls through packet inspection and firewall log analysis.
+
+ Below: Configured pfSense firewall policies to manage inter-VLAN communication and secure network segmentation. Implemented access control rules allowing workstation systems (VLAN 20) to communicate with Security Onion services on ports 8220, 8443, and 9200, supporting Elastic Agent enrollment, Fleet management, and centralized log collection.
+
+ <img width="1043" height="343" alt="Screenshot 2026-06-09 at 7 34 22 PM" src="https://github.com/user-attachments/assets/358cddaa-7c44-4e0f-8bf3-ea2cf2fd123e" />
+
+  
 
 ---
 
@@ -114,6 +122,22 @@ Implemented five VLANs to separate management, client, server, monitoring, and s
 
 - Learned how NAT rules, interface assignments, and rule order impact traffic flow within virtualized environments.
 
-- Developed practical experience deploying and maintaining virtualized infrastructure using Proxmox VE, including network bridges, virtual switches, and multi-VM environments.
+- Developed practical experience deploying and maintaining virtualized infrastructure using Proxmox VE, including network bridges, virtual switches, storage management, and multi-VM environments.
 
-- Improved familiarity with SIEM monitoring, endpoint telemetry, and log analysis through Security Onion and Elastic Stack integrations.
+- Gained hands-on experience deploying and administering Active Directory, including creating organizational units (OUs), managing users and groups, joining endpoints to the domain, and implementing role-based access controls.
+
+- Strengthened understanding of enterprise identity and access management concepts through Active Directory user lifecycle management, authentication, authorization, and security group administration.
+
+- Learned how to design, implement, and troubleshoot Group Policy Objects (GPOs) to enforce centralized security configurations across domain-joined systems.
+
+- Applied password security best practices by configuring domain-wide password policies, including password complexity requirements, minimum password length, password history enforcement, password expiration settings, and account lockout policies.
+
+- Improved understanding of Windows Server administration by integrating DNS, DHCP, Active Directory, and Group Policy services within a centralized domain environment.
+
+- Developed practical troubleshooting skills by resolving domain join issues, Group Policy application problems, user authentication failures, DNS-related Active Directory issues, and endpoint connectivity challenges.
+
+- Improved familiarity with SIEM monitoring, endpoint telemetry, threat detection workflows, and log analysis through Security Onion and Elastic Stack integrations.
+
+- Enhanced documentation and change management practices by maintaining network diagrams, firewall rule documentation, system configurations, and deployment procedures throughout the lab environment.
+
+
