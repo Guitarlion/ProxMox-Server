@@ -1,5 +1,8 @@
 # ProxMox-Server
 
+## Project Objective
+
+Designed and administered a Proxmox-based enterprise lab environment to develop practical skills in Windows Server administration, Active Directory, network segmentation, security monitoring, and infrastructure troubleshooting.
 
 ## Technologies Used
 
@@ -50,7 +53,8 @@ Designed and maintained a Proxmox VE enterprise-style home lab focused on virtua
 
 
 
-<img width="1539" height="1022" alt="ChatGPT Image May 25, 2026, 02_53_34 AM" src="https://github.com/user-attachments/assets/da96ec97-0af1-43da-9a0d-0501a5206462" />
+<img width="1536" height="1024" alt="ChatGPT Image Jun 8, 2026 at 07_57_17 PM" src="https://github.com/user-attachments/assets/694b0ca4-593f-4eb8-aedc-b1997de73055" />
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
