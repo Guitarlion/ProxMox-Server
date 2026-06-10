@@ -1,4 +1,4 @@
-# ProxMox-Server
+# Enterprise Infrastructure & Security Home Lab
 
 ## Project Objective
 
